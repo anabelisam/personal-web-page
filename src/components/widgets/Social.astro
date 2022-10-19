@@ -3,41 +3,48 @@ import { Icon } from 'astro-icon';
 
 const items = [
 	{
-		title: 'Youtube',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-		icon: 'flat-color-icons:home',
-	},
-	{
-		title: 'Twitch',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-		icon: 'flat-color-icons:faq',
-	},
-	{
 		title: 'Platzi',
+		url: 'https://platzi.com/profes/anabelisam_/',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-		icon: 'flat-color-icons:video-projector',
-	},
-	{
-		title: 'Blog',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-		icon: 'flat-color-icons:video-projector',
+			'En Platzi soy tu profesora de Pensamiento Lógico y PHP.',
+		icon: 'simple-icons:platzi',
 	},
 	{
 		title: 'Github',
+		url: 'https://github.com/anabelisam',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-		icon: 'flat-color-icons:calculator',
+			'Encuentra repositorios con ejercicios para que sigas practicando tus habilidades.',
+		icon: 'logos:github-octocat',
 	},
 	{
 		title: 'Twitter',
+		url: 'https://twitter.com/anabelisam_/',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-		icon: 'flat-color-icons:voice-presentation',
+			'Aquí opino y comparto cosas que voy aprendiendo, también doy consejos tech.',
+		icon: 'logos:twitter',
 	},
+	{
+		title: 'Youtube',
+		url: 'https://www.youtube.com/c/anabelisam',
+		description:
+			'Mis mejores videos de las transmisiones de Twitch están aquí grabadas.',
+		icon: 'logos:youtube-icon',
+	},
+	
+	{
+		title: 'Twitch',
+		url: 'https://www.twitch.tv/anabelisam',
+		description:
+			'Aquí hablamos de liderazgo, de desarrollo backend y por supuesto, lógica.',
+		icon: 'logos:twitch',
+	},
+	{
+		title: 'LinkedIn',
+		url: 'www.linkedin.com/in/anabelisam',
+		description:
+			'Conoce mi red de contactos y mi trayectoria profesional.',
+		icon: 'logos:linkedin-icon',
+	},	
 ];
 ---
 
@@ -56,12 +63,12 @@ const items = [
 			</div>
 			<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start my-12 dark:text-white">
 				{
-					items.map(({ title, description, icon }) => (
+					items.map(({ title, url, description, icon }) => (
 						<div class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-xl hover:shadow-lg transition dark:border dark:border-slate-800">
 							<div class="flex items-center mb-4">
 								<Icon name={icon} class="w-12 h-12" />
 
-								<div class="ml-4 text-xl font-bold">{title}</div>
+								<div class="ml-4 text-xl font-bold"><a href={url} target="_blank">{title}</a></div>
 							</div>
 							<p class="text-gray-500 dark:text-gray-400 text-md">{description}</p>
 						</div>
