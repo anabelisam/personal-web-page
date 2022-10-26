@@ -1,7 +1,7 @@
 ---
 publishDate: "Jul 07 2019"
 title: "Estructura de un proyecto en PHP sin framework"
-description: "Si bien la programación estructurada es considerada lo básico, la programación orientada a objetos (POO) es lo que deberías conocer como “lo esencialmente básico”."
+description: "Aprende a organizar un proyecto en PHP sin utilizar ningún framework."
 image: "~/assets/images/php-post.png"
 category: "Tutorials"
 tags: [php, poo, framework, programacion]
