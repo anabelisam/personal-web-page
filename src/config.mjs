@@ -15,11 +15,6 @@ export const BLOG = {
 	disabled: false,
 	postsPerPage: 6,
 
-	blog: {
-		disabled: false,
-		pathname: 'blog', // blog main path, you can change this to "articles" (/articles)
-	},
-
 	post: {
 		disabled: true,
 		pathname: '', // empty for /some-post, value for /pathname/some-post 
