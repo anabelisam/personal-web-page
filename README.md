@@ -1,9 +1,8 @@
 # 💖 Ana Belisa Martinez - Blog 
 
 > He recreado mi página web personal utilizando el template AstroWind de Astro + Tailwind CSS.
-> Hay muchas configuraciones y detalles por afinar, si quieres ayudarme a mejorarlo recibiré tus aportes con mucho agradecimiento 💜.
 
-## Contenido que encontrarás
+## Contenido
 Podrás acceder a mis recomendaciones y enlaces a todas las fuentes donde te ofrezco contenido acerca de desarrollo web, php y principalmente Pensamiento Lógico.
 
 ### En el apartado de **blog** encontrarás:
@@ -22,6 +21,8 @@ Empecé mi carrera profesional como desarrolladora web, en 2017 empecé a conoce
 ### Demo
 En [anabelisa.co](https://anabelisa.co/) encontrarás todo mi contenido y links a mis principales redes sociales.
 <img src="./view.png" alt="anabelisa.co Screenshot">
+
+> Hay muchas configuraciones y detalles por afinar, si quieres ayudarme a mejorarlo recibiré tus aportes con mucho agradecimiento 💜.
 
 ## Original license by Astro
 
