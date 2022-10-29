@@ -1,7 +1,7 @@
 export const SITE = {
 	name: 'anabelisa.co',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://anabelisa.co',
 	basePathname: '/',
 
 	title: 'Ana Belisa Martínez — Blog',
