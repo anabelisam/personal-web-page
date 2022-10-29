@@ -30,9 +30,6 @@ export const getPermalink = (slug = '', type = 'page') => {
 	const _slug = cleanSlug(slug);
 
 	switch (type) {
-		case 'blog':
-			return createPath(basePathname, BLOG_BASE, _slug);
-
 		case 'category':
 			return createPath(basePathname, CATEGORY_BASE, _slug);
 
