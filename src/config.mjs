@@ -13,7 +13,7 @@ export const SITE = {
 
 export const BLOG = {
 	disabled: false,
-	postsPerPage: 4,
+	postsPerPage: 6,
 
 	blog: {
 		disabled: false,
