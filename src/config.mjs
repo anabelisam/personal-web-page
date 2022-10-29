@@ -21,12 +21,12 @@ export const BLOG = {
 	},
 
 	post: {
-		disabled: false,
+		disabled: true,
 		pathname: '', // empty for /some-post, value for /pathname/some-post 
 	},
 
 	category: {
-		disabled: false,
+		disabled: true,
 		pathname: 'category', // set empty to change from /category/some-category to /some-category
 	},
 
