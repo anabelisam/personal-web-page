@@ -16,12 +16,12 @@ export const BLOG = {
 	postsPerPage: 6,
 
 	post: {
-		disabled: true,
+		disabled: false,
 		pathname: '', // empty for /some-post, value for /pathname/some-post 
 	},
 
 	category: {
-		disabled: true,
+		disabled: false,
 		pathname: 'category', // set empty to change from /category/some-category to /some-category
 	},
 
