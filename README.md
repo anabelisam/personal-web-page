@@ -20,7 +20,7 @@ Podrás acceder a mis recomendaciones y enlaces a todas las fuentes donde te ofr
 Empecé mi carrera profesional como desarrolladora web, en 2017 empecé a conocer el ecosistema de comunidades hasta que en 2019 inicié mi transición profesional hacia el management y la educación. Con toda mi experiencia en conjunto ahora quiero compartirte aquello que he aprendido y con lo que quiero que aprendas y crezcas mucho en todo lo que quieras hacer.
 
 ### Demo
-En [anabelisa.co](https://anabelisa.co/) encontrarás la siguiente portada
+En [anabelisa.co](https://anabelisa.co/) encontrarás todo mi contenido y links a mis principales redes sociales.
 <img src="./view.png" alt="anabelisa.co Screenshot">
 
 ## Original license by Astro
